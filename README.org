@@ -1,0 +1,10 @@
+Theano implementation of the [[https://openreview.net/pdf?id=HyG76D1wf][Deep Neural Maps]].
+Methods of DNM:
+- get_locations(X): returns the locations of the mapping on the lattice
+- get_embeddings(X): returns the embeddings of X
+- get_reconstructed(X): returns the output of the AE for X
+- decode_embeddings(z)
+- backproject_map(): returns the numpy array of the DNM map
+- get_bmu_array(X): returns the BMU map element of X
+
+
