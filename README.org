@@ -7,4 +7,8 @@ Methods of DNM:
 - backproject_map(): returns the numpy array of the DNM map
 - get_bmu_array(X): returns the BMU map element of X
 
+[[./backprojections/back_projected_mnist.png]]
 
+[[./backprojections/back_projected_coil.png]]
+
+[[./backprojections/back_projected_fashion.png]]
