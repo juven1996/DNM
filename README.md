@@ -1,2 +1,0 @@
-# DNM
-Deep Neural Maps
