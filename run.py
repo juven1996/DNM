@@ -15,8 +15,8 @@ def test_run():
                    BATCH_SIZE=64,
                    ae_lr=1e-3,
                    lmbd=1e-6,
-                   som_pretrain_lr=-0.0005,
-                   dnm_map_lr=-0.05)
+                   som_pretrain_lr=0.0005,
+                   dnm_map_lr=0.05)
 
     # Load dataset
     x = load_mnist()

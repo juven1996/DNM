@@ -20,8 +20,8 @@ class DNM(object):
                  BATCH_SIZE=64,
                  ae_lr=1e-3,
                  lmbd=1e-6,
-                 som_pretrain_lr=-0.0005,
-                 dnm_map_lr=-0.05):
+                 som_pretrain_lr=0.0005,
+                 dnm_map_lr=0.05):
 
         self.lattice_size = lattice_size
         self.latent_size = latent_size
@@ -64,7 +64,7 @@ class DNM(object):
 
     def __SOM(self, X, W, n):
 
-        learning_rate_op = T.exp(self.som_lr * n)
+        learning_rate_op = T.exp(-1. * self.som_lr * n)
         _alpha_op = self.alpha * learning_rate_op
         _sigma_op = self.sigma * learning_rate_op
 
