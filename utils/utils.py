@@ -22,4 +22,4 @@ def save_projection_image(memory, lattice_size):
             c += 1
     if not os.path.exists('backprojections'):
         os.mkdir('backprojections')
-    cv2.imwrite('backprojections/DNM_projection.png', 255 * memory)
+    cv2.imwrite('backprojections/DNM_projection.png', 255 * proj_map)
