@@ -12,3 +12,5 @@ Methods of DNM:
 [[./backprojections/back_projected_coil.png]]
 
 [[./backprojections/back_projected_fashion.png]]
+
+[[./backprojections/back_projected_celebA.png]]
